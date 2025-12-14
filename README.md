@@ -1,0 +1,1 @@
+# TextTool Programme Python qui effectue des operations sur des chaines de caracteres.
