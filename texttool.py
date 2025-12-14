@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+TextTool - Un programme pour effectuer des operations sur des chaines de caracteres.
+Commandes disponibles : uppercase, lowercase, length, count-words, prefix.
+"""
 def process_line(line):
     """
     Traite une ligne de commande et retourne le resultat.
