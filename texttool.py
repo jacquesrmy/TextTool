@@ -18,6 +18,10 @@ def process_line(line):
 
     return "Unknown command " + cmd
 def main():
+    """
+    Boucle principale du programme. Lit les lignes depuis l'entrée standard,
+    traite chaque ligne avec process_line et affiche le résultat.
+    """
     while True:
         try:
             line = input("commade> ")
