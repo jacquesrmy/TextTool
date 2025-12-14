@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+TextTool - Un programme pour effectuer des operations sur des chaines de caracteres.
+Commandes disponibles : uppercase, lowercase, length, count-words, prefix.
+"""
 def process_line(line):
     if " " not in line:
         return "No command or no argument given"
@@ -9,13 +13,10 @@ def process_line(line):
         return text.lower()
     if cmd == "prefix":
         return text[:10]
-
     if cmd == "count-words":
         return len(text.split())
-
     elif cmd == "length":
         return str(len(text))
-
     return "Unknown command " + cmd
 def main():
     while True:
